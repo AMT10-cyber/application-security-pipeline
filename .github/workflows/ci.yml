@@ -200,3 +200,4 @@ jobs:
         run: |
           docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/devsecops-node-app:latest .
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/devsecops-node-app:latest
+          
