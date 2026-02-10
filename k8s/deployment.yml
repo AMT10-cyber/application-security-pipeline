@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devsecops-node-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devsecops-node-app
+  template:
+    metadata:
+      labels:
+        app: devsecops-node-app
+    spec:
+      containers:
+        - name: node-app
+          image: amt1002/devsecops-node-app:latest
+          ports:
+            - containerPort: 5006
