@@ -170,9 +170,7 @@ Instead of deploying source code directly, the pipeline produces a **trusted, sc
 
 After passing all CI and security stages, the application is packaged as a Docker image and published to **Docker Hub**.
 
-This image represents a **verified deployment artifact**.
-
-#### Example
+#### Example:
 
 ```bash
 docker pull amt1002/devsecops-node-app:latest
