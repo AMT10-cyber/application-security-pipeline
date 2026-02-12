@@ -242,3 +242,4 @@ Future enhancements could include:
 * Hardened Kubernetes manifests (security contexts, resource limits)
 
 ---
+This project is licensed under the [MIT License](LICENSE) and was developed by **Atharva Takalkar**.
